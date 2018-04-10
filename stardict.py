@@ -1870,7 +1870,7 @@ if __name__ == '__main__':
 		lemma.save('output.txt')
 		return 0
 	def test5():
-		print(tools.validate_word(u'Hello World'))
+		print(tools.validate_word('Hello World', False))
 	test3()
 
 
