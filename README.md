@@ -151,7 +151,7 @@ fuse：pos = `n:46/v:54`
 
 ```python
 def stripword(word):
-	return (''.join([ n for n in word if n.isalnum() ])).lower()
+    return (''.join([ n for n in word if n.isalnum() ])).lower()
 ```
 
 CSV数据库虽然没有记录该字段，但每次加载到内存以后会自动为每个单词生成该字段，而 SQLite/MySQL 数据库则是建表的时候就包含该字段，插入单词时为该单词自动计算后插入，以后不在改变。
