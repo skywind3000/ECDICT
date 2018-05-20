@@ -77,7 +77,7 @@ d:perceived/p:perceived/3:perceives/i:perceiving
 | 0 | Lemma，如 perceived 的 Lemma 是 perceive |
 | 1 | Lemma的变换形式，比如 s 代表 apples 是其 lemma的复数形式 |
 
-这个是根据 BNC 语料库和 NodeBox / WordNet 的语言处理工具生成的，有了这个 Exchange ，有了这个东西，你的 App 能为用户提供更多信息。
+这个是根据 BNC 语料库和 NodeBox / WordNet 的语言处理工具生成的，有了这个 Exchange ，你的 App 能为用户提供更多信息。
 
 
 ## 编程接口
@@ -112,7 +112,7 @@ d:perceived/p:perceived/3:perceives/i:perceiving
 
 ## 词干查询
 
-这个词干不是背单词时候的词根，而是 lemma。每个单词有很多变体，你编写一个抓词软件抓到一个过去式的动词 gave，如果字典里面没有的话，就需要词根数据库来查询，把 gave转变为 give，再查词典数据库。
+这个词干不是背单词时候的词根，而是 lemma。每个单词有很多变体，你编写一个抓词软件抓到一个过去式的动词 gave，如果字典里面没有的话，就需要词干数据库来查询，把 gave转变为 give，再查词典数据库。
 
 我扫描了 BNC语料库全部 1亿个词条语料生成的 lemma.en.txt 就是用来做这个事情，stardict.py 中 LemmaDB 这个类就是用来加载该数据并进行分析的。
 
@@ -121,6 +121,15 @@ d:perceived/p:perceived/3:perceives/i:perceiving
 用 LemmaDB 类可以方便的查询 ['gave', 'taken', 'looked', 'teeth'] 的 lemma 是 ['give', 'take', 'look', 'tooth']，也可以查找 'take' 这个词的若干种变体。 
 
 这个 lemma.en.txt 涵盖了 BNC所有语料的各种词汇变形，95%的情况下你可以查到你想要的，这个作为首选方法，查不到再去依靠各种算法（判断词尾 -ed，-ing 等），最可靠的是数据库，算法次之。
+
+## 单词词性
+
+数据库中有一个字段 pos，就是中文里面的词性，动词还是名词，英文叫做 [pos](https://www.nltk.org/book/ch05.html) ，句子中的位置。同样是扫描语料库生成的，比如：
+
+fuse：pos = `n:46/v:54`
+
+代表 fuse 这个词有两个位置（词性），n（名词）占比46%，v（动词）占比54%，根据后面的比例，你可以直到该词语在语料库里各个 pos 所出现的频率。关于 pos 里各个字母的含义还可以看 [这里](http://www.natcorp.ox.ac.uk/tools/xaira_search.xml?ID=POS) 和 [这里](http://www.natcorp.ox.ac.uk/docs/c5spec.html)。
+
 
 ## 词典使用
 
@@ -134,6 +143,32 @@ d:perceived/p:perceived/3:perceives/i:perceiving
 生成 Anki 卡片的时候，你可以优先使用你自己的库的信息，你自己的库里没有了，再找 ECDICT。而 ECDICT里面的各种词频标注，考试大纲标注，也可以给你提供不同层次的参考。比如你想把托福里面去除六级的词汇筛选出来（很多重合），这时 EDICT本身的标注信息就能让你方便的完成这个工作了，你也可以把词频三万一下的单词导出来成为 Excel，进行更多处理。
 
 **最新版数据太大，我已经把数据库压缩成 stardict.7z了，外面默认的 ecdict.csv 算是一个基础版本（76万词条）。**
+
+
+## 模糊匹配
+
+数据库中有一个隐藏字段，叫做 `sw`，这是 strip-word 的缩写，意思是单词字符串经过 strip 以后的结果。这里的 strip 不是 python string.strip 那样简单的把头部尾部的空格去除，而是去除整个字符串中非字母和数字的部分，并讲字母转为小写，对应代码为：
+
+```python
+def stripword(word):
+	return (''.join([ n for n in word if n.isalnum() ])).lower()
+```
+
+CSV数据库虽然没有记录该字段，但每次加载到内存以后会自动为每个单词生成该字段，而 SQLite/MySQL 数据库则是建表的时候就包含该字段，插入单词时为该单词自动计算后插入，以后不在改变。
+
+这是参考 Mdx 词典格式引入的模糊匹配键值，当你使用 stardict.py 中的 match 方法时，如果第三个参数为 True，将会使用 `sw` 字段进行匹配。默认 False 使用 `word` 字段匹配时，是严格匹配字符串，那么你搜索 "long-time" 这个单词，只能匹配到 "long-time" 开头的所有单词，比如：
+
+    long-time, long-time base, long-time period, long-time cycle, ...
+
+但是如果进行模糊匹配，按照 `sw` 字段匹配 "long-time" 这个单词，将会搜索出所有 `sw` 以 "longtime" 开头的单词，比如：
+
+    long-time, longtime, long time, long-time base, longtime base, ...
+
+单词随着时间的推移，最开始是一个词组，然后变为一个减号链接的组合词，最后用的多了，减号也省了。很多词典里不一定能完全包括 long-time/long time/longtime 这类词的所有形态，单首次查询搜索失败时，可以match一下相同 sw 的单词，然后能够定位到该单词的其他形态。
+
+很多词典，如星际译王都不包含 strip 字段，因此常常词典中有该单词，但是由于你输入了错误的形态，导致你查不出来，而 ECDICT 作为一个负责任的词典数据库，能够让你通过 `sw` 这个字段任意查询单词的各种形态。
+
+
 
 ## 文字处理
 
