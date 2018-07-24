@@ -221,4 +221,3 @@ linguist.py 里面有一些简单的 WordNet, NodeBox 封装。
 * 2017-3-22 使用 NodeBox 校对完成所有副词和形容词。
 * 2017-3-21 使用 NodeBox 校对完所有动词，并且添加动词各种时态。
 
-
