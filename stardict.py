@@ -48,7 +48,9 @@ def stripword(word):
 class StarDict (object):
 
 	def __init__ (self, filename, verbose = False):
-		self.__dbname = os.path.abspath(filename)
+		self.__dbname = filename
+		if filename != ':memory:':
+			os.path.abspath(filename)
 		self.__conn = None
 		self.__verbose = verbose
 		self.__open()
@@ -778,8 +780,7 @@ class DictCsv (object):
 			row = self.__rows[index]
 			row[COLUMN_ID] = index
 			word = row[0].lower()
-			self.__words[word] = row	
-			index += 1
+			self.__words[word] = row
 		for index in xrange(len(self.__index)):
 			row = self.__index[index]
 			row[COLUMN_SD] = index
