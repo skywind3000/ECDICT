@@ -9,6 +9,7 @@
 # Last change: 2011/05/13 16:17:34
 #
 #======================================================================
+#  vim: set ts=4 sw=4 tw=0 noet :
 from __future__ import print_function
 import sys
 import time
