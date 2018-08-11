@@ -6,7 +6,7 @@
 # stardict.py - 
 #
 # Created by skywind on 2011/05/13
-# Last change: 2011/05/13 16:17:34
+# Last Modified: 2018/08/11 14:11
 #
 #======================================================================
 from __future__ import print_function
@@ -568,8 +568,8 @@ class DictMySQL (object):
 	def delete_all (self, reset_id = False):
 		sql1 = 'DELETE FROM stardict;'
 		try:
-			self.__cursor.execute(sql1)
-			self.__conn.commit()
+			with self.__conn as c:
+				c.execute(sql1)
 		except MySQLdb.Error as e:
 			self.out(str(e))
 			return False
@@ -620,6 +620,15 @@ class DictMySQL (object):
 			self.out(str(e))
 			return -1
 		return 0
+
+	# 提交数据
+	def commit (self):
+		try:
+			self.__conn.commit()
+		except MySQLdb.Error as e:
+			self.out(str(e))
+			return False
+		return True
 
 	# 取得长度
 	def __len__ (self):
