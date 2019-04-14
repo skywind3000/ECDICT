@@ -47,7 +47,7 @@ def stripword(word):
 #----------------------------------------------------------------------
 class StarDict (object):
 
-    def __init__ (self, filename, verbose = False):
+    def __init__ (self, filename, verbose = False,is_check_same_thread = True):
         self.__dbname = filename
         if filename != ':memory:':
             os.path.abspath(filename)
@@ -81,7 +81,7 @@ class StarDict (object):
         CREATE INDEX IF NOT EXISTS "sd_1" ON stardict (word collate nocase);
         '''
 
-        self.__conn = sqlite3.connect(self.__dbname, isolation_level = "IMMEDIATE")
+        self.__conn = sqlite3.connect(self.__dbname, isolation_level = "IMMEDIATE",check_same_thread=is_check_same_thread)
         self.__conn.isolation_level = "IMMEDIATE"
 
         sql = '\n'.join([ n.strip('\t') for n in sql.split('\n') ])
@@ -142,6 +142,7 @@ class StarDict (object):
         else:
             return None
         record = c.fetchone()
+        c.close()
         return self.__record2obj(record)
 
     # 查询单词匹配
@@ -156,6 +157,7 @@ class StarDict (object):
             sql += 'order by sw, word collate nocase limit ?;'
             c.execute(sql, (stripword(word), limit))
         records = c.fetchall()
+        c.close()
         result = []
         for record in records:
             result.append(tuple(record))
@@ -183,6 +185,7 @@ class StarDict (object):
             obj = self.__record2obj(row)
             query_word[obj['word'].lower()] = obj
             query_id[obj['id']] = obj
+        c.close()
         results = []
         for key in keys:
             if isinstance(key, int) or isinstance(key, long):
@@ -198,6 +201,7 @@ class StarDict (object):
         c = self.__conn.cursor()
         c.execute('select count(*) from stardict;')
         record = c.fetchone()
+        c.close()
         return record[0]
 
     # 注册新单词
@@ -501,6 +505,7 @@ class DictMySQL (object):
             sql += 'order by sw, word limit %s;'
             c.execute(sql, (stripword(word), limit))
         records = c.fetchall()
+        c.close()
         result = []
         for record in records:
             result.append(tuple(record))
