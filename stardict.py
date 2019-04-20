@@ -53,6 +53,7 @@ class StarDict (object):
             os.path.abspath(filename)
         self.__conn = None
         self.__verbose = verbose
+        self.__is_check_same_thread = is_check_same_thread
         self.__open()
 
     # 初始化并创建必要的表格和索引
@@ -81,7 +82,7 @@ class StarDict (object):
         CREATE INDEX IF NOT EXISTS "sd_1" ON stardict (word collate nocase);
         '''
 
-        self.__conn = sqlite3.connect(self.__dbname, isolation_level = "IMMEDIATE",check_same_thread=is_check_same_thread)
+        self.__conn = sqlite3.connect(self.__dbname, isolation_level = "IMMEDIATE",check_same_thread=self.__is_check_same_thread)
         self.__conn.isolation_level = "IMMEDIATE"
 
         sql = '\n'.join([ n.strip('\t') for n in sql.split('\n') ])
