@@ -6,7 +6,7 @@
 # stardict.py - 
 #
 # Created by skywind on 2011/05/13
-# Last Modified: 2018/08/11 14:11
+# Last Modified: 2019/11/09 23:47
 #
 #======================================================================
 from __future__ import print_function
@@ -1238,7 +1238,7 @@ class DictHelper (object):
             def next (self):
                 if self.total:
                     self.count += 1
-                    pc = self.count * 100 / self.total
+                    pc = int(self.count * 100 / self.total)
                     if pc != self.percent:
                         self.percent = pc
                         print('progress: %d%%'%pc)
@@ -1822,7 +1822,7 @@ if __name__ == '__main__':
         print(sd.register('Kiss', {'definition':'BIG KISS'}, False))
         print(sd.register('kiss', {'definition':'kiss me'}, False))
         print(sd.register('suck', {'definition':'suck me'}, False))
-        print(sd.register('Fuck', {'definition':'fuck me', 'detail':[1,2,3]}, False))
+        print(sd.register('give', {'definition':'give me', 'detail':[1,2,3]}, False))
         sd.commit()
         print('')
         print(sd.count())
@@ -1830,7 +1830,7 @@ if __name__ == '__main__':
         print(sd.query(2))
         print(sd.match('kis', 10))
         print('')
-        print(sd.query_batch(['fuck', 2]))
+        print(sd.query_batch(['give', 2]))
         print(sd.match('kisshere', 10, True))
         return 0
     def test2():
@@ -1843,12 +1843,12 @@ if __name__ == '__main__':
         print(dm.register('Kiss', {'definition':'kiss me'}, False))
         print(dm.register('kiss', {'definition':'BIG KISS'}, False))
         print(dm.register('suck', {'definition':'suck me'}, False))
-        print(dm.register('Fuck', {'definition':'fuck me'}, False))
+        print(dm.register('give', {'definition':'give me'}, False))
         print(dm.query('kiss'))
         print(dm.match('kis'))
         print('')
         print(dm.query('KiSs'))
-        print(dm.query_batch(['fuck', 2, 9]))
+        print(dm.query_batch(['give', 2, 9]))
         print('count: %d'%len(dm))
         print(dm.match('kisshere', 10, True))
         return 0
