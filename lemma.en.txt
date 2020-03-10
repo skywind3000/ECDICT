@@ -1,4 +1,4 @@
-; En Lemma Database (version 1.0.2)
+; En Lemma Database (version 1.0.3)
 ; Compiled by Lin Wei (https://github.com/skywind3000), Mar 28, 2017
 ; by referencing the 100M+ words in the British National Corpus (BNC), 
 ; NodeBox Linguistics and Yasumasa Someya's lemma list.
@@ -32174,7 +32174,7 @@ compartmentalize/15 -> compartmentalized,compartmentalizing,compartmentalizes
 comper/15 -> compered,compering,compers
 compote/15 -> compotes
 concreteness/15 -> concretenesses
-conjurer/15 -> conjurers,also,spelled
+conjurer/15 -> conjurers
 consol/15 -> consols
 contextualize/15 -> contextualizing,contextualized
 contraindicate/15 -> contraindicated,contraindicates,contraindicating
