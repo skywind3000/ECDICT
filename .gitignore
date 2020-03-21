@@ -1,0 +1,58 @@
+# py
+*.pyc
+*~
+# editor
+*.sw[opnlm]
+__pycache__/
+
+.DS_Store
+
+# in dev
+venv/
+.venv/
+node_modules/
+local_config.py
+tmp
+/.env
+.vagrant
+
+# testing
+.pytest_cache/
+.coverage
+
+*.rdb
+*.dump
+couchdb.stderr
+couchdb.stdout
+snapshot
+stdin
+stdout
+*#
+.idea/
+.vscode/
+
+.aproject/
+.ropeproject/
+
+# Sphinx docs
+docs/_build
+
+# all log postfix
+*.log
+
+# tags
+tags
+.tags
+.tags_sorted_by_file
+
+# Distribution & packaging
+.Python
+build/
+develop-eggs/
+dist/
+sdist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
