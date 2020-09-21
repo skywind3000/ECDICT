@@ -1811,7 +1811,7 @@ def open_local(filename):
 #----------------------------------------------------------------------
 if __name__ == '__main__':
     db = os.path.join(os.path.dirname(__file__), 'test.db')
-    my = {'host':'??', 'user':'skywind', 'passwd':'??', 'db':'skywind_t1'}
+    my = {'host':'??', 'user':'skywind', 'passwd':'??', 'db':'skywind_t1', 'use_unicode': True, 'charset': 'utf8'}
     def test1():
         t = time.time()
         sd = StarDict(db, False)
@@ -1883,7 +1883,10 @@ if __name__ == '__main__':
         return 0
     def test5():
         print(tools.validate_word('Hello World', False))
-    test3()
+
+    # csv数据转mysql
+    def test6():
+        convert_dict(my, './ecdict.csv')
 
 
 
