@@ -1041,7 +1041,9 @@ class LemmaDB (object):
 
     # 读取数据
     def load (self, filename, encoding = None):
-        content = open(filename, 'rb').read()
+        fp = open(filename, 'rb')
+        content = fp.read()
+        fp.close()
         if content[:3] == b'\xef\xbb\xbf':
             content = content[3:].decode('utf-8', 'ignore')
         elif encoding is not None:
