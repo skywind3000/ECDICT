@@ -1,0 +1,23 @@
+// @ts-nocheck
+
+let easy = true;
+easy = 42;// @ts-nocheck
+
+let easy = true;
+easy = 42;// @ts-nocheck
+
+let easy = true;
+easy = 42;// @ts-nocheck
+
+let easy = true;
+easy = 42;// @ts-nocheck
+
+let easy = true;
+easy = 42;// @ts-nocheck
+
+let easy = true;
+easy = 42;// @ts-nocheck
+
+let easy = true;
+easy = 42;
+
