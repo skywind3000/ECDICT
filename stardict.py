@@ -1786,7 +1786,7 @@ def convert_dict(dstname, srcname):
             if x <= 0:
                 data['collins'] = None
         elif isinstance(x, str) or isinstance(x, unicode):
-            if x == '' or x == '0':
+            if x in ('', '0'):
                 data['collins'] = None
         dst.register(word, data, False)
     dst.commit()
