@@ -213,3 +213,6 @@ linguist.py 里面有一些简单的 WordNet, NodeBox 封装。
 - 2017-3-23 继续使用 WordNet 补全约 1 万个新增单词的英文定义。
 - 2017-3-22 使用 NodeBox 校对完成所有副词和形容词。
 - 2017-3-21 使用 NodeBox 校对完所有动词，并且添加动词各种时态。
+
+## Applications
+[T.vim](https://github.com/sicong-li/T.vim) vim 的翻译插件。
