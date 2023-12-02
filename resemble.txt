@@ -265,9 +265,9 @@
 - experience: 亲身体验
 - encounter: 遭遇，遇到遭遇或碰上棘手的事
 
-% rgeister, schedule, roll, form, catalog(ue), chart, list, table
+% register, schedule, roll, form, catalog(ue), chart, list, table
 这组词都有“名单、目录、表格”的意思，其区别是：
-- rgeister: 多指官方对人或事作出的正式书面记录或详细清单。
+- register: 多指官方对人或事作出的正式书面记录或详细清单。
 - schedule: 既可指时间或计划的安排表，又可指详细列出的所有分类项的清单或细表。
 - roll: 多指人员的姓名名单，尤指属于团体或军事单位的全体人员名单。
 - form: 指上面印有横线或格让人填写规定内容的表格。
@@ -595,10 +595,10 @@
 - peninsula: 指三面临水一面连接大陆地，即半岛。
 - island: 普通用词，指一般的岛屿，即海里被水环绕、面积比大陆小的陆地，或河、湖中被水环绕的陆地。
 
-% financial, econmic, economy, economical
+% financial, economic, economy, economical
 这组词都有“经济的”的意思，其区别是：
 - financial: 指“财务的，金钱的，财政的，财力的”。
-- econmic: 指与political“政治的”相对而言的“经济的”。
+- economic: 指与political“政治的”相对而言的“经济的”。
 - economy: 在名词前作形容词用，相当于economical，表“节约的”或“经济实惠的”。
 - economical: 指与“节约”同义的“经济”，含“节约，不浪费”之意。
 
@@ -840,7 +840,7 @@
 
 % additional, extra, supplementary
 这组词都有“另加的，额外的”的意思，其区别是：
-- additional: 由名词additon派生出的形容词，指在原有基础上添加上去的。
+- additional: 由名词addition派生出的形容词，指在原有基础上添加上去的。
 - extra: 指不包括本身而额外加上去的部分。
 - supplementary: 由名词supplement派生而来，指对原有的追加或补究。
 
@@ -901,13 +901,13 @@
 - disappear: 普通用词，强调从视线或脑海中消失。这消失可能是暂时的、突然的或永久的，视上下文而定。
 - vanish: 语气强，指完全、往往是神秘而突然的消失，不留任何蛛丝马迹。
 
-% remember, memorize, recall, remind, recolect
+% remember, memorize, recall, remind, recollect
 这组词都有“记忆，记住，回忆”的意思，其区别是：
 - remember: 含义较广，多指无意识地回忆起往事，也可指通过主观努力去记忆。
 - memorize: 指有意识的下功夫把某事的整个细节都记在脑子里。
 - recall: 比remember文雅，指想方设法回忆已经遗忘之事。
 - remind: 指经某人或某事的提醒而回忆起某件已遗忘之事。
-- recolect: 指在记忆中搜索，设法想起一时想不起的事情或人，强调过程。
+- recollect: 指在记忆中搜索，设法想起一时想不起的事情或人，强调过程。
 
 % share, participate
 这组词都有“分享，分担”的意思，其区别是：
@@ -915,7 +915,6 @@
 - participate: 主要指参与某事。
 
 % pity, sympathy, compassion, mercy
-这组词都有“同情、怜悯”的意思，其区别是：
 - pity: 指对弱者、不幸者所表示的怜惜之情。
 - sympathy: 普通常用词，含义广。指志趣、看法上的一致，也指感情相投，带有深深的恻隐之心的亲切之情。
 - compassion: 较正式较庄重用词，指对同等人的同情与理解，常含急切愿意帮忙的意味。
@@ -1056,7 +1055,7 @@
 - torment: 强调烦恼或痛苦的长期性。
 - distress: 多指因思想上的压力紧张、恐惧、忧虑等所引起的精神上的痛苦，也可指某种灾难带来的痛苦。
 - misery: 着重痛苦的可悲状态，多含不幸、可怜或悲哀的意味。
-- torture: 语气比toment强，指在精神或肉体上受到的折磨所产生的痛苦。
+- torture: 语气比torment强，指在精神或肉体上受到的折磨所产生的痛苦。
 
 % or, and
 - or: 或者，否则，常用于否定句中 I don't like apples or bananas. Hurry up or you'll miss the bus.
@@ -1107,13 +1106,13 @@
 - globe: 指我们生活的地球，但强调其实体和圆形。
 - world: 通常相当于earth与globe，现多用指地球，地球上的世界，社会和人。
 
-% reject, deny, decline, repel, frfuse
+% reject, deny, decline, repel, refuse
 这组词都有“拒绝”的意思，其区别是：
 - reject: 多指由于某物某事某行为不能让人满意而被当面直截了当地拒绝。
 - deny: 指坚决地拒绝接受、给予或承认。
 - decline: 指婉言谢绝他人的帮助或邀请等。
 - repel: 作“拒绝”解时，语气比reject强。
-- frfuse: 语气较重，指态度坚决，肯定无疑的拒绝。
+- refuse: 语气较重，指态度坚决，肯定无疑的拒绝。
 
 % craft, vessel, ship, canoe, steamer, boat
 这组词都有“船”的意思，其区别是：
@@ -1289,9 +1288,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - clash: 着重声音；
 - crash: 着重破坏
 
-% peogress, proceed, advance
+% progress, proceed, advance
 这组词都有“前进”的意思，其区别是：
-- peogress: 多表自然过程，指生长，发展等稳定地或循环往复地前进。如：The year is progressing, it will soon be summer. (光阴似箭，很快又是夏天了。)
+- progress: 多表自然过程，指生长，发展等稳定地或循环往复地前进。如：The year is progressing, it will soon be summer. (光阴似箭，很快又是夏天了。)
 - proceed: 强调从一处向另一处的运动，常表停顿后继续前进。如：They proceeded from London to Paris. (他们从伦敦往巴黎前进。)
 - advance: 表向一个特定的目的地，在一定的时间或空间内稳定地向前运动。如：Napoleon’s army advanced on Moscow. (拿破仑的军队向莫斯科挺进。)
 
@@ -1346,10 +1345,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - command: 话意强，指正式下令，强调下令者的权威性，要求必须服从。
 - bid: 与order同义，但较正式，文学意味强，多指口头直接下的命令。
 
-% absurd, ridiclous
+% absurd, ridiculous
 这两个形容词均含有“荒谬的”之意
 - absurd: 普通用词，强调指违背常理的荒谬。
-- ridiclous: 强调荒谬到令人发笑的地步。
+- ridiculous: 强调荒谬到令人发笑的地步。
 
 % verify, confirm
 这组词都有“证实”的意思，其区别是：
@@ -1696,10 +1695,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - appreciate: 指对事物有深刻的理解能力并能鉴赏。
 - enjoy: 是一般用语，仅指感官或智力上的满足，“享受”的意味较强。
 
-% peculiarity, properity, quality, attribute, feature, characteristic, character, trait
+% peculiarity, property, quality, attribute, feature, characteristic, character, trait
 这组词都有“特性、特点、品质”的意思，其区别是：
 - peculiarity: 指人或事物独具的或奇怪的特点，常带感情色彩。
-- properity: 多指同类事物所共有的特性，一般不用于指人。
+- property: 多指同类事物所共有的特性，一般不用于指人。
 - quality: 最普通用词，既可指有形或无形的特性，又可指个性或共性的特征。
 - attribute: 通常指人主观赋予某事物的属性，可指典型事物。
 - feature: 指事物突出引人注目的特点。多用来说明人的容貌特征或地理特征。
@@ -1803,10 +1802,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - yearn: 通常指急迫不安地渴望或向往，着重怀有柔情或热情。
 - thirst: 原义指对食物或饮料的渴求，引申指全力以求。
 
-% casual, radom
+% casual, random
 这组词都有“随便的，任意的”的意思，其区别是：
 - casual: 指非正式的，轻松随便的，强调随和性。
-- radom: 指无明确的方向或目的、方法与系统，暗示没有指挥或控制。
+- random: 指无明确的方向或目的、方法与系统，暗示没有指挥或控制。
 
 % heap, gather, pile, accumulate, amass, collect
 这组词都有“积聚，聚集，积累”的意思，其区别是：
@@ -1942,7 +1941,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 
 % random, casual
 这两个形容词均含“随便的，任意的”之意。
-- radom: 指无明确的方向或目的、方法与系统，暗示没有指挥或控制。
+- random: 指无明确的方向或目的、方法与系统，暗示没有指挥或控制。
 - casual: 指非正式的，轻松随便的，强调随和性。
 
 % displace, replace, substitute
@@ -2114,7 +2113,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - bind: 多指把两个或两个以上的人或物牢牢地系或扎在一起。
 - fasten: 指把某物牢牢地拴在、钉在或锁在另一物上，使不能任意移动。
 
-% lonely, laone, desolate, lone, solitary
+% lonely, alone, desolate, lone, solitary
 这些形容词均有“孤单的，寂寞的”之意。
 - lonely: 强调孤独感，含“渴望和他人在一起”的意味。
 - alone: 普通用词，指独自一人的状态，有时含孤寂之意。
@@ -2261,7 +2260,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - flat: 多用于英国、澳大利亚和新西兰。指同一层建筑物上组成一个居住单元的几个房间。
 - apartment: 通常指占用或居住时间较长的成套房间，在美国比较常用。
 - suite: 可泛指任何设备完善的一套房间，但多指包括起居室、卧室和浴室的陈设较豪华的套间。
-- lodging: 常用lodgins,指临时租借的房间或宿舍。
+- lodging: 常用lodgings,指临时租借的房间或宿舍。
 
 % highway, route, avenue, trail, street, path, motorway, way, road, pavement, lane
 这组词都有“路”的意思，其区别是：
@@ -2274,7 +2273,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - motorway: 高速公路，新词，特指为车辆快速通行而修的专线，美语为freeway或expressway。
 - way: 普通用词，含义广泛，可指各种路、道或通道，也可指抽象的道路。
 - road: 指连接两地间供行人或车辆使用的广阔平坦的大道，多指公路，也可用于引申意义。
-- pavement: 在英国，多指街道两旁的人行道，而美国人常用sidewlk表示人行道。
+- pavement: 在英国，多指街道两旁的人行道，而美国人常用sidewalk表示人行道。
 - lane: 指农村或城镇的小道或小径，也指小巷。
 
 % information, news, intelligence
@@ -2479,11 +2478,11 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - physician: 指医院的内科医生。
 - doctor: 普通用词，泛指各科医生，即一切有行医资格的人。
 
-% chaos, disturbance, disordr, mess, confusion
+% chaos, disturbance, disorder, mess, confusion
 这些名词均表示事物的混乱状态。
 - chaos: 着重指令人无能为力或感到绝望的混乱状态。突出没有很好的组织。
 - disturbance: 主要指社会中政治性的动乱、骚乱；也可指个人或少数人的闹事。
-- disordr: 正式用词，含义广泛。指事物因失去原有的秩序而造成混乱；也可指社会中的动乱或骚乱。
+- disorder: 正式用词，含义广泛。指事物因失去原有的秩序而造成混乱；也可指社会中的动乱或骚乱。
 - mess: 语气强，口语中较常用的非正式用词。指既混乱又肮脏，尤指人思想混乱或外表不整洁。
 - confusion: 指东西搅混在一起，凌乱得难以辨认；也可指思想混乱，以致无法进行正常的思维活动。
 
@@ -2596,11 +2595,11 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - speed: 多用于褒义，指行动敏捷快速，效果好。
 - dispatch: 指迅速、敏捷地结事某事，强调敏捷和及时。
 
-% laugh, smile, siggle, grin, beam, sneer
+% laugh, smile, giggle, grin, beam, sneer
 这些动词均含“笑”之意。
 - laugh: 最常用词，指因喜悦、愉快或轻视而出声的笑或大笑。
 - smile: 指面露微笑，侧重于无声。
-- siggle: 指发出咯咯的笑声，较多地用于女人或孩子。
+- giggle: 指发出咯咯的笑声，较多地用于女人或孩子。
 - grin: 指露齿而笑。
 - beam: 书面用词，指人因心情舒畅而发出的笑，即喜形于色地笑。
 - sneer: 指冷笑、嘲笑。
@@ -2763,9 +2762,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - rich: 普通用词，语气强烈，指拥有大量金钱及财产。
 - wealthy: 普通用词，语气不如rich强烈，多指经济上富裕、社会地位稳固，很有身份，即有钱有势。
 
-% economical, thrify
-- economical: adj充分利用而无浪费
-- thrify: adj花费上节俭；
+% economical, thrifty
+- economical: adj.充分利用而无浪费
+- thrifty: adj.花费上节俭；
 
 % army, troops, forces
 这些名词均含“军队、部队”之意。
@@ -2939,10 +2938,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - rule: 强调用绝对或独裁的权力来管理或统治。
 - manage: 强调对具体事务机构进行管理，有时含受权管理或处理之意。
 
-% pistol, fifle, gun, cannon
+% pistol, rifle, gun, cannon
 这组词都有“枪，炮”的意思，其区别是：
 - pistol: 指手枪。
-- fifle: 指步枪类的枪。
+- rifle: 指步枪类的枪。
 - gun: 系枪的通称。
 - cannon: 在军事上，现在gun指火炮，取代了cannon这一名词。
 
@@ -3008,7 +3007,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 
 % offend, insult
 这两个动词均含“得罪或激怒某人”之意。
-- offent: 普通用词，指一般地伤害他人感情，使其不愉快。
+- offend: 普通用词，指一般地伤害他人感情，使其不愉快。
 - insult: 语气强，指肆无忌惮地侮辱，使其难堪或羞愧。
 
 % compatible, consistent
@@ -3093,13 +3092,13 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - romance: 系novel早期的代用词，泛指具有强烈神话和传奇色彩的故事，现指爱情故事。
 - novel: 指任何有情节、人物、对白，虚构的长篇散文体故事。
 
-% smell, fragrance, incense, perfume, flaour, odour, scent
+% smell, fragrance, incense, perfume, flavour, odour, scent
 这组词都有“气味”的意思，其区别是：
 - smell: 普通用词，与odour很相近，中性词。可指好闻或不好闻或中性气味。
 - fragrance: 较正式的典雅用词，常指花妆品、花朵和香料等发出的令人感到新鲜、愉快的香味。
 - incense: 指香燃烧时发出的芳香的烟味。
 - perfume: 书面用词，指强烈、浓厚天然或人工制造的香气。
-- flaour: 指影响嗅觉、味觉的香气或香味，多用于指食物等独特的味。
+- flavour: 指影响嗅觉、味觉的香气或香味，多用于指食物等独特的味。
 - odour: 书面中性词，侧重气味本身的本质，既可指令人愉快的气味，也可指令人作呕难闻气味。
 - scent: 与smell很接近，但着重某物质或物体所特有的气味，多指好闻的气味。
 
@@ -4088,11 +4087,6 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - explain: 含义广，最普通用词，指把某事向原来不了解、不清楚的人解释明白、说清楚等。
 - illustrate: 多指用实例或插图、图表加以说明。
 
-% percentage, percent或per cent
-这组词都有“百分比”的意思，其区别是：
-- percentage: 不受数字修饰，不指具体的百分比，通常用在一些形容词或起形容词作用的词之后，可也单独使用。
-- percent或per cent: 系拉丁语per centum的缩略，通常和一个具体数字连用，指具体的百分比。
-
 % yield, harvest, crop
 这组词都有“收成”的意思，其区别是：
 - yield: 指生产物，农作物的总产量。
@@ -4267,7 +4261,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 
 % appreciative, grateful
 这组词都有“感谢的、感激的”的意思，其区别是：
-- appreciative: 与greatful基本同义，但语气较强，侧重以行动或言语来感谢。
+- appreciative: 与grateful基本同义，但语气较强，侧重以行动或言语来感谢。
 - grateful: 普通用词，侧重因对方的恩惠、好意或帮助，从内心产生的感激之情。
 
 % hail, salute, address, welcome, greet
@@ -4606,9 +4600,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - arouse: 除表示一般的唤醒外，多作引申用。
 - awake: 正式用词，常指觉醒、警惕的状态，也多用于比喻。
 
-% hoblly, pastime, recreation
+% hobby, pastime, recreation
 这组词都有“嗜好，消遣，娱乐”的意思，其区别是：
-- hoblly: 指在某一具有知识性和趣味性的领域内从事的业余爱好活动。
+- hobby: 指在某一具有知识性和趣味性的领域内从事的业余爱好活动。
 - pastime: 多指消遣，系空余时间的娱乐活动，常常不具什么内在价值或意义。
 - recreation: 通常指令人愉快的消遣或有节制的活动，侧重于游玩、游戏和消遣。
 
@@ -4741,11 +4735,11 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - actual: 指事物的实际存在，并非出自主观臆造。
 - factual: 与actual同义，但更测重根据事实，不扩大或缩小，不渲染。
 
-% holiday, leave, vacantion, festival
+% holiday, leave, vacation, festival
 这组词都有“假日，节日”的意思，其区别是：
 - holiday: 指按规定不工作的各种假日，时间可长可短。在英国复数形式表示较长的假期。
 - leave: 主要指政府机关工作人员或军队人员获准的休假、假期。
-- vacantion: 通常指时间较长的假期，如学校的寒暑假等。
+- vacation: 通常指时间较长的假期，如学校的寒暑假等。
 - festival: 指公众庆祝、欢度的节日。
 
 % help, support, assistance, aid
@@ -4829,14 +4823,14 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - come: 侧重变化的经过或过程，多用于不良情况。
 - go: 作为连系动词，通常与形容词连用，指进入某种状态，从而发生变化，多指不好的状态。
 
-% enjoyment, joy, pleasure, fun, rapture, dlight
+% enjoyment, joy, pleasure, fun, rapture, delight
 这组词都有“愉快、快乐、高兴”的意思，其区别是：
 - enjoyment: 比pleasure, joy和delight的语气轻，但更着重行为或乐事的本身，而不是感情。
 - joy: 语气弱于rapture，强于pleasure，多指情感充溢，喜形于色的强烈的欢乐情绪。
 - pleasure: 最普通常用词，常指不表露出来的满意或喜悦情绪，也指强烈的愉快或兴奋感。
 - fun: 普通用词，指任何能给予喜悦的娱乐，或指娱乐本身。
 - rapture: 书面语用词，指极端的欣喜、大喜或狂喜。
-- dlight: 指强烈的、活泼的、显而易见的快乐和高兴。
+- delight: 指强烈的、活泼的、显而易见的快乐和高兴。
 
 % cause, get, have, make, render
 这组词都有“使，使得”的意思，其区别是：
@@ -4922,9 +4916,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - aspect: 书面用词，突出人或事物在某特定时间或地点时的外貌。
 - appearance: 普通用词，着重由总体产生的印象。
 
-% devor, read, scan, skim
+% devour, read, scan, skim
 这组词都有“读、阅读”的意思，其区别是：
-- devor: 指贪婪地读，暗含对某些作者或作品迷恋之义。
+- devour: 指贪婪地读，暗含对某些作者或作品迷恋之义。
 - read: 最普通用词，含义广泛。既指朗读又可指默读。
 - scan: 指快速扫视文章等以抓住其要旨。
 - skim: 指略读或浏览。
@@ -5003,9 +4997,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - engine: 其区别在于所使用的地区不同，engine是英国英语
 - locomotive: 其区别在于所使用的地区不同，而locomotive为美国英语。
 
-% offent, insult
+% offend, insult
 这组词都有“得罪或激怒某人”的意思，其区别是：
-- offent: 普通用词，指一般地伤害他人感情，使其不愉快。
+- offend: 普通用词，指一般地伤害他人感情，使其不愉快。
 - insult: 语气强，指肆无忌惮地侮辱，使其难堪或羞愧。
 
 % model, facsimile, duplicate, reproduction, copy
@@ -5296,11 +5290,11 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - conference: 正式用词，一般指大型会议，如政府工作会议、国际学术交流会议、各国之间的协商、会谈等。
 - council: 在国际上多指由各国代表参加的政治会议，或常设的政治机构。在国内、地方上，此词多指常设的政务领导机构，如市政委员会等。
 
-% advice, opinion, progposal, suggestion, recommendation, view
+% advice, opinion, proposal, suggestion, recommendation, view
 这些名词均含“意见、建议”之意。
 - advice: 普通用词，侧重依据个人经验、学识和正确判断而提出的忠言。
 - opinion: 日常用词，泛指对某事物的想法和意见。
-- progposal: 指正式提出来供研究、采纳或实行的建议。
+- proposal: 指正式提出来供研究、采纳或实行的建议。
 - suggestion: 普通用词，语气比advice婉转客气，也不如proposal正式。着重为改进工作、解决困难等提出的建议，有时含所提建议不一定正确，仅供参考的意味。
 - recommendation: 指在自己经历的基础上而提出的有益建议、意见或忠告。
 - view: 侧重指对重大的或引起公众关注的问题所持的看法和态度。
@@ -5495,7 +5489,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 这组词都有“袋”的意思，其区别是：
 - sack: 应用较窄，指较大的袋子，如麻袋等。
 - handbag: 指手提包，尤指女人用的手提包。
-- purse: 指钱包或小钱袋，在美国相当于bandbag。
+- purse: 指钱包或小钱袋，在美国相当于handbag。
 - bag: 普通用词，指一般的口袋，有时也指手提包。
 
 % calculate, compute, estimate
@@ -5993,10 +5987,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - passion: 指极强烈的感情、尤指愤怒、爱好等。也常指两性间的爱情。
 - emotion: 普通用词，词义中性。泛指因外界刺激而引起思想情感从细微变化到最强烈的发作。
 
-% arms, wepon, armament
+% arms, weapon, armament
 这些名词均含有“武器、兵器”之意。
 - arms: 指士兵使用的具体的武器，如枪、炮等。
-- wepon: 普通用词，含义广泛，从随手可得的棍棒石头到各种枪炮，甚至原子弹等都可称为weapon，还可作引申用。
+- weapon: 普通用词，含义广泛，从随手可得的棍棒石头到各种枪炮，甚至原子弹等都可称为weapon，还可作引申用。
 - armament: 多用复数形式，指军队的武器装备。书面用词。
 
 % tax, duty, tariff, assess, dues, impose
@@ -6194,10 +6188,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - self-satisfied: 自满的
 - self-confident: 自信
 
-% vicinity, neighbourbood
+% vicinity, neighbourhood
 这组词都有“邻近，附近”的意思，其区别是：
 - vicinity: 侧重指距说话人很近的地方。
-- neighbourbood: 指邻居或同居住者接近的地方，也指街坊四邻或居民点。
+- neighbourhood: 指邻居或同居住者接近的地方，也指街坊四邻或居民点。
 
 % assignment, task, profession, job
 - assignment: 指分派做的特定任务，也指长期性工作
@@ -6262,7 +6256,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 % medium, median, average
 这些形容词均含“中等的，平均的，适中的”之意。
 - medium: 指按照某种标准来说是适中或中等的。这种标准可以是通过仪器测量而来，也可能是凭经验而得出。
-- mediam: 指中间位置的，统计学上指处于中间位置的一个数的。
+- median: 指中间位置的，统计学上指处于中间位置的一个数的。
 - average: 通常用来形容优劣难分的平庸或折衷情况，也指理论上的平均标准。
 
 % dish, plate
@@ -6928,10 +6922,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - newspaper: 一般指每日出版的报纸。
 - publication: 指出版物，发行物。
 
-% good-bye, farwell
+% good-bye, farewell
 这组词都有“再见”的意思，其区别是：
 - good-bye: 口语中的普通用词，是“Good be with you”的缩略形式，多用于亲友暂时离开的情景。
-- farwell: 较正式用词和修辞用语。多用于亲友到远处去要长时间后才可见面的情景，隐含“永别”或“不易再见面”的意味。
+- farewell: 较正式用词和修辞用语。多用于亲友到远处去要长时间后才可见面的情景，隐含“永别”或“不易再见面”的意味。
 
 % constitute, consist, compose, comprise, include
 这组词都有“组成，包含”的意思，其区别是：
@@ -7011,10 +7005,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - fearless: 语气肯定，侧重在危险时无所畏惧，毫无动摇。
 - courageous: 正式用词，侧重指在一切情况下都有胆量，无所畏惧，强调基于道德信念，经深思熟虑后所产生的勇敢。
 
-% alarm, frightem, startle, terrify, scare, intimidate
+% alarm, frighten, startle, terrify, scare, intimidate
 这些动词均有“惊吓、惊恐”之意。
 - alarm: 着重指某人意识到危险而突然产生的惊恐。
-- frightem: 普通用词，使用广泛，指产生突然、短暂的惊慌、恐怖感。
+- frighten: 普通用词，使用广泛，指产生突然、短暂的惊慌、恐怖感。
 - startle: 强调突然使人惊骇或震惊。
 - terrify: 语气最强，指惊骇得六神无主，魂飞魄散。
 - scare: 指非正式文体中可与frighten换用，但语气较重，侧重人受惊吓后立即停下正在干的事或跑掉。
@@ -7087,9 +7081,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - significant: 指某事物由于特别优秀或特别有意义而显得重要与突出。
 - important: 最普通用词，指有权威、有影响的人或值得注意的、有价值的事物。
 
-% lodging, accommodation, apartment, flae, quarters, suite
+% lodging, accommodation, apartment, flat, quarters, suite
 这些名词均有“住处”之意。
-- lodging: 常用lodgins, 指临时租借的房间或宿舍。
+- lodging: 常用lodgings, 指临时租借的房间或宿舍。
 - accommodation: 泛指各种居住住所，一般指暂时下榻之地。
 - apartment: 通常指占用或居住时间较长的成套房间，在美国比较常用。
 - flat: 多用于英国、澳大利亚和新西兰。指同一层建筑物上组成一个居住单元的几个房间。
@@ -7393,10 +7387,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - preach: 布道，宣讲（讲义，生活方式等）；
 - fund: 为…提供资金，拨款给
 
-% reform, transfrom
+% reform, transform
 这组词都有“改革、改变、改造”的意思，其区别是：
 - reform: 指去恶扬善、弃旧图新，使变得完美，多用于社会、政治、经济方面，如体制、法律、机构等的改革。
-- transfrom: 指既改变外部形体，又改变内部性质或功能。
+- transform: 指既改变外部形体，又改变内部性质或功能。
 
 % expect, desire, wish, long, want, hope
 这组词都有“希望”的意思，其区别是：
@@ -7437,9 +7431,9 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - district: n.行政区划的小范围地区。如Xicheng district北京西城区
 - zone: n.指特定的地方、地带。
 
-% tolerantj, merciful
+% tolerant, merciful
 这两个形容词均含“宽容的”之意。
-- tolerantj: 指不固执己见，能够宽容或谅解他人的开明态度。
+- tolerant: 指不固执己见，能够宽容或谅解他人的开明态度。
 - merciful: 指同情或怜悯。
 
 % weep, cry, sob
@@ -7764,7 +7758,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - deliberate: 指缓慢、按部就班地作仔细而认真的思考或判断。
 - reflect: 指回想或回顾，侧重认真而冷静地反复地思考某个问题，尤指对已发生事情的思索。
 
-% band, mob, masses, gang, swarm, group, throug, crowd
+% band, mob, masses, gang, swarm, group, through, crowd
 这组词都有“群，帮，伙”的意思，其区别是：
 - band: 多指一群有明确宗旨，为共同目的而结合在一起的人，常含贬义。
 - mob: 指无组织、乱七八糟凑合在一起的乌合之众，或指聚集在一起寻衅滋事的人群，多为暴徒。
@@ -7772,7 +7766,7 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - gang: 常指从事非法、暴力或敌对活动的帮派或团伙。有时呈中性，词义同group。
 - swarm: 指人数众多，杂乱无章，不停移动的一群人。
 - group: 普通用词，通常指有组织、有秩序的一群人，也可指无意汇集在一起的一群人。
-- throug: 书面用词，意义接近crowd，侧重密集地挤在一起的一群，含挤在一起向前推进之意。
+- through: 书面用词，意义接近crowd，侧重密集地挤在一起的一群，含挤在一起向前推进之意。
 - crowd: 常指无组织地乱哄哄地挤在一起的人群。
 
 % worthwhile, worthless, worth, worthy
@@ -8053,12 +8047,12 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - transmission: n.传播(比如疾病)；广播。
 - transformation: n. (外观或性质的)改变，改观，转变。
 
-% uncertain, questionable, doubtful, ambigous
+% uncertain, questionable, doubtful, ambiguous
 这组词都有“怀疑的，不确定的”的意思，其区别是：
 - uncertain: 多指因缺乏证据或了解而捉摸不定，也指因不能预料而不能作出选择。
 - questionable: 通常指怀疑某行为是否恰当，或指有根有据的怀疑。
 - doubtful: 指对某个问题持积极怀疑的，有疑问的态度，强调缺乏确信。
-- ambigous: 指因缺乏明确感或因为有各种不同的解释而值得怀疑。
+- ambiguous: 指因缺乏明确感或因为有各种不同的解释而值得怀疑。
 
 % total, entire, gross, full, complete, whole, all
 这组词都有“完整的，全部的，整个的”的意思，其区别是：
@@ -8200,11 +8194,11 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - information: 和data作“资料”解时，前者仅指所获得、提供或描述的慨况，而不指具体的数据或资料，后者则指具体的资料。
 - data: 是datum的复数形式，本义指作为计算和测量基础的资料。
 
-% region, area, districk, belt, neighbourhood, zone, section, quarter
+% region, area, district, belt, neighbourhood, zone, section, quarter
 这组词都有“地区”的意思，其区别是：
 - region: 普通用词，常指地球上、大气中具有自然分界线的区域，特指按照气候、人体或其他特征鲜明、自成一体的地区。
 - area: 普通用词，指整体中较大的，界线不分明的一部分。
-- districk: 多指由政府等机构出于行政管理等目的而明确划分的地区。
+- district: 多指由政府等机构出于行政管理等目的而明确划分的地区。
 - belt: 从本义“带，带状物”引申而指任何广阔的长条地带，也可指种植某种作物的地区。
 - neighbourhood: 指比section的划定更清楚，范围更小。具体指城市中的住宅区，也可指附近一带。
 - zone: 科技用词，指圆形或弧形地带，尤指地图上按温度划分的五个地带。用作一般意义时，也可指具有某种特征的其它地区。
@@ -8361,16 +8355,16 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - proof: 指足以直接证明某事为某事实的依据，侧重作为充分证据所导致的结果。
 - witness: 指证据或证人，尤指后者，且有亲眼见到之意。
 
-% mediam, average, medium
+% median, average, medium
 这组词都有“中等的，平均的，适中的”的意思，其区别是：
-- mediam: 指中间位置的，统计学上指处于中间位置的一个数的。
+- median: 指中间位置的，统计学上指处于中间位置的一个数的。
 - average: 通常用来形容优劣难分的平庸或折衷情况，也指理论上的平均标准。
 - medium: 指按照某种标准来说是适中或中等的。这种标准可以是通过仪器测量而来，也可能是凭经验而得出。
 
-% speech, laguage, tongue, slang, dialect, idiom
+% speech, language, tongue, slang, dialect, idiom
 这组词都有“语言”的意思，其区别是：
 - speech: 特指人的口语，也指正式的讲话。
-- laguage: 普通用词，含义广。指人的语言或文字，或动物的语言。既可指口头或书面语言，也可指手势语等。
+- language: 普通用词，含义广。指人的语言或文字，或动物的语言。既可指口头或书面语言，也可指手势语等。
 - tongue: 书面用词，指人的语言，亦指人的母语。
 - slang: 指俚语。
 - dialect: 指一种语言中，某一地方所特有的语言形式，即方言。
@@ -8680,10 +8674,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 这两个词均可表示否定“不，没有”之意。
 - no: 与not有两点值得特别注意。1.no用作形容词时一般直接置于名词之前。名词前有a,  any,  much,  enough等限定词时，不可用no，应用否定副词not。no修饰名词时，语气强于not。2.作为否定副词no与not都可与形容词比较级连用，但它们所表示的意思不相同。
 
-% doubt, supicion, distrust, uncertainty
+% doubt, suspicion, distrust, uncertainty
 这些名词均有“怀疑”之意。
 - doubt: 指对事物的真、假有怀疑。
-- supicion: 语气较强，指对某人做某事的目的、意图有怀疑，或认为某人做错事，但无确凿证据而产生怀疑。
+- suspicion: 语气较强，指对某人做某事的目的、意图有怀疑，或认为某人做错事，但无确凿证据而产生怀疑。
 - distrust: 一般用词，泛指对某人某事不信任而感到怀疑。
 - uncertainty: 侧重指对某事或选择等需作决定时的迟疑不决。
 
@@ -8699,10 +8693,10 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 - big: 常用词，使用广泛，较口语化。多指体积、重量或容量等方面的“大”，有时也用于描写抽象之物。
 - large: 普通用词，含义广，指体积、面积、容量、数量以及程度等方面的大，具体或抽象意义均可用。
 
-% merit, pefection, virtue
+% merit, perfection, virtue
 这组词都有“优点，长处”的意思，其区别是：
 - merit: 指有值得赞扬的优点，但不一定是出类拔萃。
-- pefection: 指达到了理想或完美的程度。
+- perfection: 指达到了理想或完美的程度。
 - virtue: 指人或物的优点长处，指人的美德。
 
 % people, masses, crowd, throng, mob
@@ -8745,4 +8739,3 @@ can和may都可能表示可能性，前者表理论上的可能性，而后者�
 % different, indifferent
 - different: 跟……不一样，同from搭配。如：This book is different from that one.(这本书跟那本不一样。)
 - indifferent: 冷漠的，不关心的，同to搭配。如：He was indifferent to his personal appearance.(他从前不注意自己的外表。)
-
