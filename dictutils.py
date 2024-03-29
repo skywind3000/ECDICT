@@ -194,7 +194,7 @@ class Generator (object):
 			text = text + translation
 			exchange = self.word_exchange(data, 0)
 			if exchange:
-				text = text + '\n\n' + exchange + ''
+				text = text + '\n\n' + exchange
 			if tag:
 				text = text + '\n' + '(' + tag + ')'
 			out[word] = text
