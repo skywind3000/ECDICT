@@ -1730,8 +1730,8 @@ class DictHelper (object):
             return False
         if len(word) == 1:
             x = ord(word)
-            if (x < ord('a')) and (x > ord('z')):
-                if (x < ord('A')) and (x > ord('Z')):
+            if (x < ord('a')) or (x > ord('z')):
+                if (x < ord('A')) or (x > ord('Z')):
                     return False
         if (' ' not in word) and ('-' not in word):
             if ('?' in word) or ('!' in word):
