@@ -217,3 +217,4 @@ linguist.py 里面有一些简单的 WordNet, NodeBox 封装。
 ## Applications
 [T.vim](https://github.com/sicong-li/T.vim) vim 的翻译插件。
 [Trans.nvim](https://github.com/JuanZoran/Trans.nvim) neovim 的翻译插件。
+[WebAssembly 和 Go语言支持](https://github.com/mojocn/wasmecdict)
