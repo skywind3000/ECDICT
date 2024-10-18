@@ -187,6 +187,20 @@ linguist.py 里面有一些简单的 WordNet, NodeBox 封装。
 
 采用 CSV 格式正是为了方便 GitHub 上提交 PR，管理 differ，欢迎大家提交各类词条增补。
 
+## 更多词典
+
+更多我制作的词典：
+
+- 《[简明英汉必应版](https://skywind.me/blog/archives/2875)》
+- 《[单词释义比例词典](https://skywind.me/blog/archives/2938)》
+- 《[有道词语辨析（加强版）](https://skywind.me/blog/archives/2941)》
+
+欢迎关注：
+
+- 我的博客：https://skywind.me/blog
+- 个人推特：https://x.com/skywind3000
+
+
 ## TODO
 
 - ~~搜索并校对：所有动词（3 月 21 日根据 NodeBox 工具包校对完成）~~
@@ -215,5 +229,7 @@ linguist.py 里面有一些简单的 WordNet, NodeBox 封装。
 - 2017-3-21 使用 NodeBox 校对完所有动词，并且添加动词各种时态。
 
 ## Applications
+
 [T.vim](https://github.com/sicong-li/T.vim) vim 的翻译插件。
 [Trans.nvim](https://github.com/JuanZoran/Trans.nvim) neovim 的翻译插件。
+
