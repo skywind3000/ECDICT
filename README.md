@@ -189,11 +189,11 @@ linguist.py 里面有一些简单的 WordNet, NodeBox 封装。
 
 ## 更多词典
 
-更多我制作的词典：
+我的其它词典：
 
 - 《[简明英汉必应版](https://skywind.me/blog/archives/2875)》
 - 《[单词释义比例词典](https://skywind.me/blog/archives/2938)》
-- 《[有道词语辨析（加强版）](https://skywind.me/blog/archives/2941)》
+- 《[近义词辨析词典](https://skywind.me/blog/archives/2941)》
 
 欢迎关注：
 
