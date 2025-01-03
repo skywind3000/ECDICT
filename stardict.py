@@ -66,8 +66,8 @@ class StarDict (object):
             "definition" TEXT,
             "translation" TEXT,
             "pos" VARCHAR(16),
-            "collins" INTEGER DEFAULT(0),
-            "oxford" INTEGER DEFAULT(0),
+            "collins" INTEGER DEFAULT(NULL),
+            "oxford" INTEGER DEFAULT(NULL),
             "tag" VARCHAR(64),
             "bnc" INTEGER DEFAULT(NULL),
             "frq" INTEGER DEFAULT(NULL),
@@ -398,8 +398,8 @@ class DictMySQL (object):
             `definition` TEXT,
             `translation` TEXT,
             `pos` VARCHAR(16),
-            `collins` SMALLINT DEFAULT 0,
-            `oxford` SMALLINT DEFAULT 0,
+            `collins` SMALLINT DEFAULT NULL,
+            `oxford` SMALLINT DEFAULT NULL,
             `tag` VARCHAR(64),
             `bnc` INT DEFAULT NULL,
             `frq` INT DEFAULT NULL,
@@ -1774,20 +1774,10 @@ def convert_dict(dstname, srcname):
     for word in src.dumps():
         pc.next()
         data = src[word]
-        x = data['oxford']
-        if isinstance(x, int) or isinstance(x, long):
-            if x <= 0:
-                data['oxford'] = None
-        elif isinstance(x, str) or isinstance(x, unicode):
-            if x == '' or x == '0':
-                data['oxford'] = None
-        x = data['collins']
-        if isinstance(x, int) or isinstance(x, long):
-            if x <= 0:
-                data['collins'] = None
-        elif isinstance(x, str) or isinstance(x, unicode):
-            if x in ('', '0'):
-                data['collins'] = None
+        for i in ['oxford', 'collins', 'frq', 'bnc']:
+            x = data.get(i)
+            if not isinstance(x, (int, long)) or x <=0:
+                data[i] = None
         dst.register(word, data, False)
     dst.commit()
     pc.done()
