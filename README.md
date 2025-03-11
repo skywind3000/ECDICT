@@ -127,7 +127,7 @@ d:perceived/p:perceived/3:perceives/i:perceiving
 
 fuse：pos = `n:46/v:54`
 
-代表 fuse 这个词有两个位置（词性），n（名词）占比 46%，v（动词）占比 54%，根据后面的比例，你可以直到该词语在语料库里各个 pos 所出现的频率。关于 pos 里各个字母的含义还可以看 [这里](http://www.natcorp.ox.ac.uk/tools/xaira_search.xml?ID=POS) 和 [这里](http://www.natcorp.ox.ac.uk/docs/c5spec.html)。
+代表 fuse 这个词有两个词性，n（名词）占比 46%，v（动词）占比 54%，根据后面的比例，你可以直到该词语在语料库里各个 pos 所出现的频率。关于 pos 里各个字母的含义还可以看 [这里](http://www.natcorp.ox.ac.uk/tools/xaira_search.xml?ID=POS) 和 [这里](http://www.natcorp.ox.ac.uk/docs/c5spec.html)。
 
 ## 词典使用
 
