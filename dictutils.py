@@ -885,17 +885,14 @@ class Treasure (object):
 				youci = youci[p1 + 5:]
 			if youci:
 				head = u'<span class="head">【优词】　</span> '
-				head = ''
 				output.append(head + youci)
 		xdf = detail.get('xdf')
 		if xdf:
 			head = u'<span class="head">【新东方】　</span>'
-			head = ''
 			output.append(head + xdf)
 		bzsd = detail.get('bzsd')
 		if bzsd:
 			head = u'<span class="head">【不择手段】　</span>'
-			head = ''
 			output.append(head + self.text2html(bzsd))
 		if not output:
 			return None
@@ -909,12 +906,10 @@ class Treasure (object):
 		resemble = detail.get('resemble')
 		if resemble:
 			head = u'<span class="head">【有道词语辨析】</div><br>\n'
-			head = ''
 			output.append(head + resemble)
 		syno = detail.get('syno')
 		if syno:
 			head = u'<span class="head">【有道近义词】</div><br>\n'
-			head = ''
 			output.append(head + self.get_syno(data))
 		if not output:
 			return None
