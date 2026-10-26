@@ -4,7 +4,9 @@ from pathlib import Path, PurePath
 
 import stardict
 
+# sqlite3 和 csv文件路径，根据实际情况修改
 MYSQLITE = 'ecdictSqlite.db'
+CSVFILE = 'ecdict.csv'
 
 
 def new_inflection(exchange):
@@ -57,7 +59,7 @@ def new_inflection(exchange):
 
 def init_ecdict_sqlite():
 
-    stardict.convert_dict(MYSQLITE, 'ecdict.csv')
+    stardict.convert_dict(MYSQLITE, CSVFILE)
     con = sqlite3.connect(MYSQLITE)
     cur = con.cursor()
 
@@ -80,7 +82,8 @@ def init_ecdict_sqlite():
     con.close()
 
 
-init_ecdict_sqlite()  # 只需运行一次，生成sqlite3 db文件
+def test_del_bfz():
+    init_ecdict_sqlite()  # 只需运行一次，将CSV文件转换为sqlite3 db文件
 
-# 转换SQLITE为csv文件
-stardict.convert_dict('ecdict.csv', MYSQLITE)
+    # 再将sqlite3 db文件转换回csv文件，覆盖原文件
+    stardict.convert_dict(CSVFILE, MYSQLITE)
