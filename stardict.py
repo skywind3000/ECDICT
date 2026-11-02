@@ -1369,14 +1369,14 @@ class DictHelper (object):
                     f2.write(text)
                     position += len(text)
             with open(mainname + '.ifo', 'wb') as f3:
-                f3.write("StarDict's dict ifo file\nversion=2.4.2\n")
-                f3.write('wordcount=%d\n'%len(wordmap))
-                f3.write('idxfilesize=%d\n'%f1.tell())
-                f3.write('bookname=%s\n'%title.encode('utf-8', 'ignore'))
-                f3.write('author=\ndescription=\n')
+                f3.write(b"StarDict's dict ifo file\nversion=2.4.2\n")
+                f3.write(b'wordcount=%d\n'%len(wordmap))
+                f3.write(b'idxfilesize=%d\n'%f1.tell())
+                f3.write(b'bookname=%s\n'%title.encode('utf-8', 'ignore'))
+                f3.write(b'author=\ndescription=\n')
                 import datetime
                 ts = datetime.datetime.now().strftime('%Y.%m.%d')
-                f3.write('date=%s\nsametypesequence=m\n'%ts)
+                f3.write(b'date=%s\nsametypesequence=m\n'%ts.encode('ascii'))
         pc.done()
         return True
 
